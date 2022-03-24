@@ -5,6 +5,7 @@ let month = ['January', 'Febuary', 'March', 'April', 'May', 'June', 'July', 'Aug
 
 
 
+
 document.querySelector('.search').addEventListener('click', () => {
 	let input = document.querySelector('.search-box').value;
 	if (input === "") {
